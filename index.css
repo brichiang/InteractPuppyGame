@@ -1,0 +1,217 @@
+#selectContainer {
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #FF4040;
+    z-index: 100;
+}
+
+#chooseOne {
+    position: relative;
+    font-size: 50pt;
+    font-family: 'Fredoka One', cursive;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#choice {
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.selection {
+    width: 300px;
+    margin: 50px;
+}
+
+.selection:hover {
+    width: 320px;
+    transition: 0.1s;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#start {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    width: 200px;
+    font-size: 30pt;
+    text-align: center;
+    margin: auto;
+    font-family: 'Fredoka One', cursive;
+    color: #ffffff;
+    background-color: #FF5F5F;
+    border: 5px solid #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+#start:hover {
+    background-color: #4CC000;
+}
+
+#container {
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(SVG/day.svg);
+    transition: 2s;
+    overflow: hidden;
+}
+
+#cloud1 {
+    position: absolute;
+    margin: auto;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+}
+#cloud2 {
+    position: absolute;
+    margin: auto;
+    height: 100px;
+    top 10px;
+    left: 500px;
+}
+#cloud3 {
+    position: absolute;
+    margin: auto;
+    height: 100px;
+    top: 110px;
+    left: 1000px;
+}
+
+#house {
+    position: absolute;
+    margin: auto;
+    height: 400px;
+    bottom: 140px;
+    cursor: pointer;
+}
+
+#machine {
+    position: absolute;
+    margin: auto;
+    height: 300px;
+    bottom: 140px;
+    right: 20px;
+}
+
+#chi {
+    position: absolute;
+    margin: auto;
+    height: 250px;
+    bottom: 130px;
+    right: 0px;
+    left: 0px;
+    display: none;
+    cursor: pointer;
+}
+
+#pug {
+    position: absolute;
+    margin: auto;
+    height: 250px;
+    bottom: 130px;
+    right: 0px;
+    left: 0px;
+    display: none;
+    cursor: pointer;
+}
+
+.boxes {
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    z-index: 1;
+}
+
+#box1 {
+    right: 150px;
+    bottom: 350px;
+    cursor: pointer;
+}
+
+#box2 {
+    right: 40px;
+    bottom: 350px;
+    cursor: pointer;
+}
+
+#box3 {
+    right: 150px;
+    bottom: 260px;
+    cursor: pointer;
+}
+
+#box4 {
+    right: 40px;
+    bottom: 260px;
+    cursor: pointer;
+}
+
+#textbox {
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    border-radius: 10%;
+    background-color: #ffffff;
+    top: 200px;
+    right: 350px;
+    display: none;
+}
+#cross {
+    position: absolute;
+    width: 30px;
+    margin: 20px;
+    right: 0px;
+    cursor: pointer;
+}
+
+#cross:hover {
+    width: 35px;
+}
+
+#text {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin: 30px;
+    font-size: 20pt;
+}
+
+#sun {
+    position: absolute;
+    width: 200px;
+    right: 10px;
+    cursor: pointer;
+    transition: 2s;
+    top: 0px;
+}
+
+#moon {
+    position: absolute;
+    width: 200px;
+    right: 10px;
+    cursor: pointer;
+    transition: 2s;
+    top: -200px;
+}

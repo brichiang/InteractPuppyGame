@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>WebDevFinal</title>
+        <link href="index.css" type="text/css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div id="selectContainer">
+            <div id="chooseOne">
+                <p>Choose One</p>
+            </div>
+            <div id="choice">
+                <img src="SVG/chiSelect.svg" id="chiSelect" class="selection" onmousedown="chiBark.play()"/>
+                <img src="SVG/pugSelect.svg" id="pugSelect" class="selection" onmousedown="pugBark.play()"/>
+            </div>
+            
+                <button id="start">Start</button>
+        </div>
+        
+        <div id="container">
+            <img src="SVG/sun1.svg" id="sun" onmousedown="crickets.play()"/>
+            <img src="SVG/moon.svg" id="moon" onmousedown="rooster.play()"/>
+            <img src="SVG/cloud1.svg" id="cloud1" />
+            <img src="SVG/cloud2.svg" id="cloud2" />
+            <img src="SVG/cloud3.svg" id="cloud3" />
+            <img src="SVG/dayhouse.svg" id="house" onclick="houseImg(this)" onmousedown="lightswitch.play()"/>
+            <img src="SVG/machine.svg" id="machine" />
+            <img src="SVG/chi1.svg" id="chi" onmousedown="chiBark.play()" onmouseover="chichange(this)" onmouseout="chiback(this)" />
+            <img src="SVG/pug1.svg" id="pug" onmousedown="pugBark.play()" onmouseover="pugchange(this)" onmouseout="pugback(this)" />
+            <div id="box1" class="boxes" onmousedown="drop.play()"></div>
+            <div id="box2" class="boxes" onmousedown="drop.play()"></div>
+            <div id="box3" class="boxes" onmousedown="drop.play()"></div>
+            <div id="box4" class="boxes" onmousedown="drop.play()"></div>
+            <div id="textbox">
+                <img src="SVG/cross.svg" id="cross" />
+                <p id="text">Hello World</p>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
